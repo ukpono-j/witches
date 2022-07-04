@@ -83,10 +83,12 @@
 @media screen and (max-width: 500px) {
     .hero-img {
         width: 100%;
+        
     }
 
     .img-right {
         right: 0px !important;
+        bottom: 180px;
 
     }
 

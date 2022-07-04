@@ -35,13 +35,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:  30px;
+    padding: 30px;
 }
 
 .hero h3 {
     font-size: 40px;
     font-family: 'Lilita One', cursive;
     color: white;
+    z-index: 1;
+    position: relative;
 }
 
 .hero a {
@@ -65,9 +67,34 @@
     display: flex;
 }
 
-@media screen and (max-width: 500px){
-    .hero-img{
+.img-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+}
+
+.img-right {
+    position: absolute;
+    bottom: 140px;
+    right: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .hero-img {
         width: 100%;
+    }
+
+    .img-right {
+        right: 0px !important;
+    }
+
+    .img-left {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200px;
+  
     }
 }
 

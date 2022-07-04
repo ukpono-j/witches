@@ -321,8 +321,8 @@
 @media screen and (max-width: 600px){
     .intro-container{
         display: block;
-        width: 90%;
-        border: 10px solid white;
+        width: 100%;
+        /* border: 10px solid white; */
     }
 
 }

@@ -65,6 +65,12 @@
     display: flex;
 }
 
+@media screen and (max-width: 500px){
+    .hero-img{
+        width: 100%;
+    }
+}
+
 /* font-family: 'Lilita One', cursive; */
 /* font-family: 'Source Sans Pro', sans-serif; */
 /* font-family: 'Koulen', cursive; */

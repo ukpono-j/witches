@@ -212,7 +212,8 @@
 }
 
 .intro-message-txt {
-    width: 230px;
+    width: 210px;
+    margin-right: 20px;
     /* border: 1px solid  gray ; */
 }
 

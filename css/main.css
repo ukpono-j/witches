@@ -42,8 +42,8 @@
     font-size: 40px;
     font-family: 'Lilita One', cursive;
     color: white;
-    z-index: 1;
-    position: relative;
+
+    /* position: relative; */
 }
 
 .hero a {
@@ -87,6 +87,12 @@
 
     .img-right {
         right: 0px !important;
+
+    }
+
+    .op {
+        z-index: 1;
+        position: relative;
     }
 
     .img-left {
@@ -94,7 +100,11 @@
         left: 0;
         top: 0;
         width: 200px;
-  
+
+    }
+    .hero h3 {
+        font-size: 33px;
+        
     }
 }
 

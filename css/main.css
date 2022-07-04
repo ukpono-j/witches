@@ -146,8 +146,9 @@
 }
 
 .intro1 {
-    --header-height: 88px;
+    /* --header-height: 88px; */
     /* width: 100%; */
+    height: auto;
     max-width: 500px;
     aspect-ratio: 1/1.8;
     position: relative;
@@ -157,7 +158,8 @@
     transform: rotate(-2deg);
     padding: 40px 26px;
     filter: drop-shadow(8px 12px 0 rgba(0, 0, 0, 0.125));
-    padding: 30px;
+    /* padding: 30px; */
+    /* overflow-y: scroll; */
     /* border: 1px solid  black; */
 }
 
@@ -165,7 +167,8 @@
     width: 100%;
     /* background-color: #e6e2d8; */
     background-color: aliceblue;
-    height: 100%;
+    height: auto;
+    padding-bottom: 30px;
 
 }
 

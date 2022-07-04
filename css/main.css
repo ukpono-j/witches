@@ -29,7 +29,7 @@
 
 .hero-container {
     width: auto;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     height: auto;
     display: flex;
     flex-direction: column;

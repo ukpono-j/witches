@@ -157,7 +157,7 @@
     padding: 40px 26px;
     filter: drop-shadow(8px 12px 0 rgba(0, 0, 0, 0.125));
     padding: 30px;
-    border: 1px solid  black;
+    /* border: 1px solid  black; */
 }
 
 .intro1-container {
@@ -213,7 +213,7 @@
 
 .intro-message-txt {
     width: 230px;
-    /* border: 1px solid  gray ; */
+    border: 1px solid  gray ;
 }
 
 .content {
@@ -324,5 +324,12 @@
         width: 100%;
         /* border: 10px solid white; */
     }
-
+    .intro-message-txt {
+        width: auto;
+        /* border: 1px solid  gray ; */
+    }
+    .intro-message-avatars1 {
+        width: 40px;
+        height: 40px;
+    }
 }

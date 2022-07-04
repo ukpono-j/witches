@@ -152,6 +152,7 @@
     aspect-ratio: 1/1.8;
     position: relative;
     margin-top: 24px;
+    display: flex;
     background: transparent url(../images/w16.png) no-repeat center center/100% 100%;
     transform: rotate(-2deg);
     padding: 40px 26px;

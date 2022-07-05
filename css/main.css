@@ -209,7 +209,7 @@
     border: 1px solid #000;
     border-radius: 8px 9px 7px 6px;
     padding: 8px 12px 6px;
-    font-size: clamp(16px, 3vmin, 24px);
+    font-size: clamp(14px, 3vmin, 16px);
     line-height: 1.25;
     font-weight: 400;
     letter-spacing: .5px;

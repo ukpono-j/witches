@@ -131,6 +131,7 @@
 
 .intro-container {
     width: 70%;
+    /* border: 1px solid  white; */
     height: auto;
     display: flex;
     justify-content: center;
@@ -181,7 +182,7 @@
 .intro-1-head {
     height: 50px;
     width: 100%;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -323,9 +324,10 @@
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 684px){
     .intro-container{
         display: block;
+        justify-content: center;
         width: 100%;
         /* border: 10px solid white; */
     }
